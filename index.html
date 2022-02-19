@@ -32,18 +32,32 @@
             }
 
             .event-outer {
-                width: 600;
+                width: 100%;
+                left: -10px;
                 background-image: url(event_news_bg.png);
-                background-position: top, bottom;
+                background-position: top;
                 background-repeat: no-repeat;
                 position: relative;
             }
 
+            .event-middle-background {
+                width: 536px;
+                height: 325px;
+                background-image: url(generic_news.png);
+                margin-left: 42px;
+                margin-bottom: 40px;
+                margin-top: 24px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
             .event-text {
                 position: relative;
-                margin-top: 194px;
-                margin-left: 63px;
-                width: 456px;
+                margin-top: -50px;
+                margin-left: 30px;
+                width: 520px;
                 font-family: 'AFL-Font-pespaye-nonmetric';  
                 color: black;
                 font-weight: 600;
@@ -52,8 +66,8 @@
 
             .event-title {
                 position: absolute;
-                top: 131px;
-                left: 60px;
+                top: 101px;
+                left: 30px;
                 width: 456px;
                 bottom: 0px;
                 text-align: center;
@@ -86,13 +100,15 @@
                 width: 352px;
                 height: 52px;
                 background-image: url(event_button.png);
-                margin-left: 135px;
-                margin-bottom: 165px;
-                margin-top: 66px;
-                text-align: center;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+
+            .event-button-text {
+                width: 352px;
+                height: 52px;
+                margin-left: 40px;
+                margin-top: -48px;
             }
 
             textarea {
@@ -135,7 +151,8 @@
                         두 국가는 스푸트니크 위성을 인류 최초의 인공위성이자 독소간 상호협력관계의 상징으로 소개하면서, 인류 과학기술에 있어 커다란 진보라고 자찬했습니다. 반면 미합중국은 독소의 발표를 "기술적으로 크게 발달되지 못한 '자칭' 위성"일 뿐이라면서 애써 평가절하했습니다. 이제 미국이 이러한 '스푸트니크' 공격에 반격할 수 있을지는 미국이 곧 쏘아올릴 '뱅가드' 인공위성의 성공 여부에 달려있습니다.
                         
                         하지만 전 세계의 사람들은 아직도 스푸트니크 위성의 성공에 기뻐하고 있습니다. 인류 역사상 처음으로 우주로 쏘아올린 이 위성은 나날이 빠르게 발전하는 인류의 과학기술력의 상징입니다. 지금 이 순간에도 지구의 땅 위에 있는 인간들은 고개를 돌려 우주를 쳐다보고 있으며, 우주에서는 금속구 모양의 본체에 안테나 4개가 달린 '인공위성'이 '삐...삐...삐...삐...' 소리를 내면서 지구를 응시하고 있습니다..</div>
-                    <div class="event-button" contenteditable="true">삐...삐...삐...삐...</div>
+                    <div class="event-button"></div>
+                    <div class="event-button-text" contenteditable="true">삐...삐...삐...삐...</div>
                 </div>
             </div>
         </div>
