@@ -32,21 +32,11 @@
             }
 
             .event-outer {
-                width: 563;
-                background-image: url(event_top.png), url(event_bottom.png);
+                width: 600;
+                background-image: url(event_news_bg.png);
                 background-position: top, bottom;
                 background-repeat: no-repeat;
                 position: relative;
-            }
-
-            .event-middle-background {
-                position: absolute;
-                top: 193px;
-                bottom: 244px;
-                left: 0;
-                width: 100%;
-                background-image: url(event_middle.png);
-                background-repeat: repeat-y; 
             }
 
             .event-text {
@@ -130,24 +120,22 @@
     <body>
         <div class="page">
             <div class="char-count" id="char-count">
-                1761 char. equivalents
+                약 1761자
                 <br/>
-                23 lines
+                23 줄
             </div>
             <div class="event-outer">
                 <div class="event-middle-background"></div>
                 <div class="event-title">
-                    <textarea>Another Day in Siberia</textarea>
+                    <textarea>스푸트니크의 발사!</textarea>
                 </div>
                 <div class="event-text">
-                    <div class="event-text-inner"  contenteditable="true">It was a cold, cold day in Siberia, as it always was. Snow covered the ground, hiding dirt that had never seen the sun deep below, and never would. As Artyom marched through it in boots and furs, a bundle of birds in one hand and his rifle in the other, he looked at the clouds above. They looked darker than normal, a sure sign of a storm.
-
-Shrugging off the snow from his furs and leathers, he approached his ramshackle hut and slowly opened the door, carefully placing his items down on a table nearby.
-
-After a quiet moment of contemplation as he remarked over his quiet abode and lit his lamp, he scratched his dog, Sasha, behind the ear and turned on the radio as he did everyday, and frowned as he got nothing besides static.
-
-Artyom quickly started surfing through the few stations he reached, and found nothing but static, static, and more static. After some time, he shrugged, he had expected the old tilting radio tower near the equally dilapidated village to collapse for days now, nothing could be done. The outside world, and all of its wonders, were nothing but a distant thought for Artyom, and after a sigh, he turned off the radio for the last time.</div>
-                    <div class="event-button" contenteditable="true">Life goes on...</div>
+                    <div class="event-text-inner"  contenteditable="true">1964년 1월 5일, 소비에트 사회주의 공화국 연방과 대독일국은 합동 기자회견을 열고, 소련 바이코누르 우주기지에서 소련과 독일이 합작하여 만들어낸 로켓이 우주로 발사되었으며 로켓에 탑재된 스푸트니크(동반자) 위성이 지구궤도에서 공전하기 시작했다고 발표했습니다.
+                        
+                        두 국가는 스푸트니크 위성을 인류 최초의 인공위성이자 독소간 상호협력관계의 상징으로 소개하면서, 인류 과학기술에 있어 커다란 진보라고 자찬했습니다. 반면 미합중국은 독소의 발표를 "기술적으로 크게 발달되지 못한 '자칭' 위성"일 뿐이라면서 애써 평가절하했습니다. 이제 미국이 이러한 '스푸트니크' 공격에 반격할 수 있을지는 미국이 곧 쏘아올릴 '뱅가드' 인공위성의 성공 여부에 달려있습니다.
+                        
+                        하지만 전 세계의 사람들은 아직도 스푸트니크 위성의 성공에 기뻐하고 있습니다. 인류 역사상 처음으로 우주로 쏘아올린 이 위성은 나날이 빠르게 발전하는 인류의 과학기술력의 상징입니다. 지금 이 순간에도 지구의 땅 위에 있는 인간들은 고개를 돌려 우주를 쳐다보고 있으며, 우주에서는 금속구 모양의 본체에 안테나 4개가 달린 '인공위성'이 '삐...삐...삐...삐...' 소리를 내면서 지구를 응시하고 있습니다..</div>
+                    <div class="event-button" contenteditable="true">삐...삐...삐...삐...</div>
                 </div>
             </div>
         </div>
@@ -170,7 +158,7 @@ Artyom quickly started surfing through the few stations he reached, and found no
                 var numLines = Math.floor(e.target.offsetHeight / 15);
                 console.log(numLines);
 
-                charCount.innerHTML = String(cc) + " char. equivalents<br/>" + String(numLines) + " lines";
+                charCount.innerHTML = "약" + String(cc) + "자<br/>" + String(numLines) + "줄";
             }, false);
         </script>
     </body>
