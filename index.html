@@ -32,33 +32,29 @@
             }
 
             .event-outer {
-                width: 100%;
-                height: 100%;
-                left: -20px;
-                top: 150px;
-                background-image: url(event_news_bg.png);
+                width: 600;
+                background-image: url(event_top.png), url(event_bottom.png);
+                background-position: top, bottom;
                 background-repeat: no-repeat;
                 position: relative;
+                width: 100%;
             }
 
             .event-middle-background {
-                width: 536px;
-                height: 325px;
-                background-image: url(generic_news.png);
-                margin-left: 42px;
-                margin-bottom: 40px;
-                margin-top: 24px;
-                text-align: center;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                position: absolute;
+                top: 211px;
+                bottom: 244px;
+                left: 6px;
+                width: 100%;
+                background-image: url(event_middle.png);
+                background-repeat: repeat-y; 
             }
 
             .event-text {
                 position: relative;
-                margin-top: -50px;
-                margin-left: 30px;
-                width: 520px;
+                margin-top: 194px;
+                margin-left: 63px;
+                width: 456px;
                 font-family: 'AFL-Font-pespaye-nonmetric';  
                 color: black;
                 font-weight: 600;
@@ -67,8 +63,8 @@
 
             .event-title {
                 position: absolute;
-                top: 101px;
-                left: 30px;
+                top: 141px;
+                left: 60px;
                 width: 456px;
                 bottom: 0px;
                 text-align: center;
@@ -99,17 +95,15 @@
 
             .event-button {
                 width: 352px;
-                height: 52px;
+                height: 24px;
                 background-image: url(event_button.png);
-                margin-left: 10px;
-                margin-top: 10px;
-            }
-
-            .event-button-text {
-                width: 352px;
-                height: 52px;
-                margin-left: 40px;
-                margin-top: -48px;
+                margin-left: 165px;
+                margin-bottom: 165px;
+                margin-top: 66px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             textarea {
@@ -137,23 +131,25 @@
     <body>
         <div class="page">
             <div class="char-count" id="char-count">
-                약 598자
+                총 633 자
                 <br/>
-                23 줄
+                8 줄
             </div>
             <div class="event-outer">
                 <div class="event-middle-background"></div>
                 <div class="event-title">
-                    <textarea>스푸트니크의 발사!</textarea>
+                    <textarea>섭정</textarea>
                 </div>
                 <div class="event-text">
-                    <div class="event-text-inner"  contenteditable="true">1964년 1월 5일, 소비에트 사회주의 공화국 연방과 대독일국은 합동 기자회견을 열고, 소련 바이코누르 우주기지에서 소련과 독일이 합작하여 만들어낸 로켓이 우주로 발사되었으며 로켓에 탑재된 스푸트니크(동반자) 위성이 지구궤도에서 공전하기 시작했다고 발표했습니다.
+                    <div class="event-text-inner"  contenteditable="true">고요하고 위대한 헝가리 왕국의 섭정각하, 호르티 이슈트반.
                         
-                        두 국가는 스푸트니크 위성을 인류 최초의 인공위성이자 독소간 상호협력관계의 상징으로 소개하면서, 인류 과학기술에 있어 커다란 진보라고 자찬했습니다. 반면 미합중국은 독소의 발표를 "기술적으로 크게 발달되지 못한 '자칭' 위성"일 뿐이라면서 애써 평가절하했습니다. 이제 미국이 이러한 '스푸트니크' 공격에 반격할 수 있을지는 미국이 곧 쏘아올릴 '뱅가드' 인공위성의 성공 여부에 달려있습니다.
+                        아버지였던 미클로시 제독의 집권 이후, 헝가리는 다시 한번 위대한 영광을 되찾기 위하여 힘써왔고, 되찾았습니다. 하지만 그러한 노력도 결국 완전히 완수하지 못한채로 아버지의 삶은 끝나버렸습니다. 이슈트반은 그런 아버지의 뜻을 이어받아 더욱 강력하고, 더욱 위대한 헝가리를 만들기 위하여 노력하고 있습니다.
                         
-                        하지만 전 세계의 사람들은 아직도 스푸트니크 위성의 성공에 기뻐하고 있습니다. 인류 역사상 처음으로 우주로 쏘아올린 이 위성은 나날이 빠르게 발전하는 인류의 과학기술력의 상징입니다. 지금 이 순간에도 지구의 땅 위에 있는 인간들은 고개를 돌려 우주를 쳐다보고 있으며, 우주에서는 금속구 모양의 본체에 안테나 4개가 달린 '인공위성'이 '삐...삐...삐...삐...' 소리를 내면서 지구를 응시하고 있습니다..</div>
-                    <div class="event-button"></div>
-                    <div class="event-button-text" contenteditable="true">삐...삐...삐...삐...</div>
+                        하지만 빛이 있으면 어둠도 있는 법. 아버지가 저지른 몇가지 실책은 여전히 헝가리의 날개를 묶어두며 제한하고 있습니다.
+                        이슈트반 또한 자신이 아버지의 실책에 아무관련이 없지 않다는 것을 분명하게 이해하고 있으며, 헝가리 왕관의 주인과 섭정의 지위, 그리고 독일에게 경제적으로 종속된 헝가리를 자유롭게 하기 위하여 매일 노력합니다.
+                        
+                        하지만 잔혹한 현실은 그리 간단하지 않으며, 여러 문제들이 벗어나려고 발버둥치면 더욱 깊숙히 파고드는 덫처럼 파고들고 있습니다...</div>
+                    <div class="event-button" contenteditable="true">그가 우리 모두를 인도하리라.</div>
                 </div>
             </div>
         </div>
@@ -176,7 +172,7 @@
                 var numLines = Math.floor(e.target.offsetHeight / 15);
                 console.log(numLines);
 
-                charCount.innerHTML = "약" + String(cc) + "자<br/>" + String(numLines) + "줄";
+                charCount.innerHTML = String(cc) + " char. equivalents<br/>" + String(numLines) + " lines";
             }, false);
         </script>
     </body>
